@@ -1,0 +1,102 @@
+.card{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80VH;
+
+  .card-1{
+    position: relative;
+    height: 400px;
+    width: 300px;
+    border-radius: 4px;
+    transition: 0.5s;
+    background: url(../../assets/img/Karim.png) center/cover;
+    &:hover {
+      transform: scale(1.1);
+      z-index: 2;
+    }
+  }
+  .card-2{
+    position: relative;
+    height: 400px;
+    width: 300px;
+    border-radius: 4px;
+    transition: 0.5s;
+    background: url(../../assets/img/Karim.png) center/cover;
+    &:hover {
+      transform: scale(1.1);
+      z-index: 2;
+    }
+  }
+  .card-3{
+    position: relative;
+    height: 400px;
+    width: 300px;
+    border-radius: 4px;
+    transition: 0.5s;
+    background: url(../../assets/img/Karim.png) center/cover;
+    &:hover {
+      transform: scale(1.1);
+      z-index: 2;
+    }
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+
+  &:hover .infos {
+    opacity: 1;
+    transform: scaleY(1);
+  }
+
+  .infos-1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: $white;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    opacity: 0;
+    transform: scaleY(0);
+    transition: 0.3s;
+  }
+  .infos-2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: $white;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    opacity: 0;
+    transform: scaleY(0);
+    transition: 0.3s;
+  }
+  .infos-3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: $white;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    opacity: 0;
+    transform: scaleY(0);
+    transition: 0.3s;
+  }
+}
